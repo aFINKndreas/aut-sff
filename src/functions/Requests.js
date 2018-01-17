@@ -1,5 +1,5 @@
 export const postRequest = (cb) => {
-    fetch('https://aut-sff.afink.at/backend/', {
+    fetch('http://10.51.50.27/AUT_SFF/get_subjects.php', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
